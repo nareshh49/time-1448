@@ -12,7 +12,7 @@ pipeline {
         stage('Run') {
             steps {
                 sh 'ls -lsrt'
-                sh 'java 
+                sh 'java my hello'
             }
         }
     }
